@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-09T20:02:04 IST" name="Default suite" finished-at="2023-08-09T20:03:31 IST" duration-ms="87074">
+  <suite started-at="2023-08-09T22:53:33 IST" name="Default suite" finished-at="2023-08-09T22:53:37 IST" duration-ms="3877">
     <groups>
     </groups>
-    <test started-at="2023-08-09T20:02:04 IST" name="Default test" finished-at="2023-08-09T20:03:31 IST" duration-ms="87074">
+    <test started-at="2023-08-09T22:53:33 IST" name="Default test" finished-at="2023-08-09T22:53:37 IST" duration-ms="3877">
       <class name="DevelopedFramework.developedframework.testClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DevelopedFramework.developedframework.testClass@75459c75]" started-at="2023-08-09T20:02:04 IST" name="setup" finished-at="2023-08-09T20:02:48 IST" duration-ms="43304" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DevelopedFramework.developedframework.testClass@201b6b6f]" started-at="2023-08-09T22:53:33 IST" name="setup" finished-at="2023-08-09T22:53:36 IST" duration-ms="3215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="firstTest()[pri:0, instance:DevelopedFramework.developedframework.testClass@75459c75]" started-at="2023-08-09T20:02:48 IST" name="firstTest" finished-at="2023-08-09T20:03:31 IST" duration-ms="43690" status="PASS">
+        <test-method signature="firstTest()[pri:0, instance:DevelopedFramework.developedframework.testClass@201b6b6f]" started-at="2023-08-09T22:53:36 IST" name="firstTest" finished-at="2023-08-09T22:53:37 IST" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
