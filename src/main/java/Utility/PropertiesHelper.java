@@ -1,22 +1,21 @@
 package Utility;
 
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesHelper {
-	
-	public static Properties pobj = new Properties();
+	Properties pobj = new Properties();
 	public PropertiesHelper() {
-		FileReader reader = null;
+		FileInputStream reader = null;
+		
 		try {
-			reader = new FileReader("src/resources/config.properties");
+			reader = new FileInputStream("D:\\NIkhlesh_Ruby\\SeleniumFramework\\src\\resources\\config.properties");
 		} catch (FileNotFoundException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		Properties pobj = new Properties();
 		try {
 			pobj.load(reader);
 		} catch (IOException e) {
