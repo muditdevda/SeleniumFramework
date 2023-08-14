@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-09T22:53:33 IST" name="Default suite" finished-at="2023-08-09T22:53:37 IST" duration-ms="3877">
+  <suite started-at="2023-08-11T15:39:34 IST" name="Suite" finished-at="2023-08-11T15:39:35 IST" duration-ms="851">
     <groups>
     </groups>
-    <test started-at="2023-08-09T22:53:33 IST" name="Default test" finished-at="2023-08-09T22:53:37 IST" duration-ms="3877">
+    <test started-at="2023-08-11T15:39:34 IST" name="Test_All" finished-at="2023-08-11T15:39:35 IST" duration-ms="851">
       <class name="DevelopedFramework.developedframework.testClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DevelopedFramework.developedframework.testClass@201b6b6f]" started-at="2023-08-09T22:53:33 IST" name="setup" finished-at="2023-08-09T22:53:36 IST" duration-ms="3215" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DevelopedFramework.developedframework.testClass@70819ba8]" started-at="2023-08-11T15:39:34 IST" name="setup" finished-at="2023-08-11T15:39:34 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="firstTest()[pri:0, instance:DevelopedFramework.developedframework.testClass@201b6b6f]" started-at="2023-08-09T22:53:36 IST" name="firstTest" finished-at="2023-08-09T22:53:37 IST" duration-ms="542" status="PASS">
+        <test-method signature="firstTest()[pri:0, instance:DevelopedFramework.developedframework.testClass@70819ba8]" started-at="2023-08-11T15:39:34 IST" name="firstTest" description="verify screenshot test" finished-at="2023-08-11T15:39:35 IST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
       </class> <!-- DevelopedFramework.developedframework.testClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test_All -->
+  </suite> <!-- Suite -->
 </testng-results>
