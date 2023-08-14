@@ -14,11 +14,12 @@ import com.google.common.io.Files;
 public class screenshot {
 	private static WebDriver driver = DriverManager.getChromeDriver();
 	private static Logger log = LogManager.getLogger(screenshot.class);
+	private static String Screeshot_path = "src\\ScreensShotImage\\";
 	
 	
-	public void SS(String fileName) throws IOException {
+	public void TakeScreenshot(String fileName) throws IOException {
 		File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(f,new File("D:\\NIkhlesh_Ruby\\SeleniumFramework\\src\\ScreensShotImage\\"+ fileName +".jpg"));
+		Files.copy(f,new File(Screeshot_path + fileName + ".jpg"));
 		log.info("Take Screenshot Successfully");	
 	}
 	
