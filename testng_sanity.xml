@@ -3,18 +3,18 @@
 <suite name="Suite">
   <test thread-count="5" name="Sanity">
 	  <parameter name="browser" value="Chrome"/>
-   <groups>
+  <groups>
 	   <run>
 		   <include name="Sanity"></include>
 	   </run>
-   </groups>
-    <classes>
+  </groups>
+  <classes>
       <class name="com.sauslab.testcases.checkoutcompletetest"/>
       <class name="com.sauslab.testcases.checkoutonetest"/>
       <class name="com.sauslab.testcases.cartTest"/>
       <class name="com.sauslab.testcases.inventorytest"/>
       <class name="com.sauslab.testcases.checkoutsecondtest"/>
       <class name="com.sauslab.testcases.logintest"/>
-    </classes>
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

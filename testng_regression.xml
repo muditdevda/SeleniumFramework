@@ -8,13 +8,13 @@
 		   <include name="Regression"></include>
 	   </run>
    </groups>
-    <classes>
+   <classes>
       <class name="com.sauslab.testcases.checkoutcompletetest"/>
       <class name="com.sauslab.testcases.checkoutonetest"/>
       <class name="com.sauslab.testcases.cartTest"/>
       <class name="com.sauslab.testcases.inventorytest"/>
       <class name="com.sauslab.testcases.checkoutsecondtest"/>
       <class name="com.sauslab.testcases.logintest"/>
-    </classes>
+   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
