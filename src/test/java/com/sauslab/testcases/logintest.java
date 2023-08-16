@@ -23,13 +23,14 @@ import com.sauslab.utility.Log;
 public class logintest extends BaseClass {
 	loginPage LoginPage;
 	inventoryPage inventorypage;
+	
 	@Parameters("browser")
 	@BeforeMethod(groups ={"Smoke","Sanity","Regression"})
 	public void setup(String browser) throws InterruptedException{
 		launchApp(browser);
 	}
 	
-	@Parameters({"browser"})
+	
 	@AfterMethod(groups ={"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		getDriver().quit();

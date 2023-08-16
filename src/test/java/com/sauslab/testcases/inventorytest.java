@@ -23,7 +23,7 @@ public class inventorytest extends BaseClass {
 	inventoryPage inventorypage;
 	CartPage cartPage;
 	
-	@Parameters({"browser"})
+	@Parameters("browser")
 	@BeforeMethod(groups ={"Smoke","Sanity","Regression"})
 	public void setup(String browser) throws InterruptedException{
 		launchApp(browser);

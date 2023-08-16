@@ -27,7 +27,7 @@ public class checkoutonetest extends BaseClass{
 	checkoutstepone CHECK;
 	checkoutstepsecond C2;
 	
-	@Parameters({"browser"})
+	@Parameters("browser")
 	@BeforeMethod(groups ={"Smoke","Sanity","Regression"})
 	public void setup(String browser) throws InterruptedException{
 		launchApp(browser);
