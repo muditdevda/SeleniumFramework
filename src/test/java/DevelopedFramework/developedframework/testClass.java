@@ -33,7 +33,7 @@ public class testClass {
 		log.debug("for debug");
 		log.error("error message");
 		log.warn("warning message");
-		SC.SS("amazon");
+		SC.TakeScreenshot("amazon");
 		log.info("Browser Stop Successfully");
 	}
 	
