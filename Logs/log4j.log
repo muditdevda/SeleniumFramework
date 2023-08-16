@@ -293,3 +293,9 @@
 2023-08-16 19:26:39 INFO  Log:22 - Verifying if user is able to login
 2023-08-16 19:26:39 INFO  Log:22 - Login is Success
 2023-08-16 19:26:39 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2023-08-16 21:36:13 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2023-08-16 21:36:13 INFO  Log:22 - Enter UserName and Password
+2023-08-16 21:36:13 INFO  Log:22 - user is going to click on Login
+2023-08-16 21:36:14 INFO  Log:22 - Verifying if user is able to login
+2023-08-16 21:36:14 INFO  Log:22 - Login is Success
+2023-08-16 21:36:14 INFO  Log:15 - =====================================loginTest TEST END=========================================
