@@ -759,7 +759,6 @@ public class Action extends BaseClass {
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 	
-	
 	public static void pageLoadTimeOut(WebDriver driver, int timeOut)throws InterruptedException {
 		driver.manage().timeouts().pageLoadTimeout(timeOut, TimeUnit.SECONDS);
 	}

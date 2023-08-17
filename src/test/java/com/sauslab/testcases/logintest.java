@@ -23,13 +23,11 @@ import com.sauslab.utility.Log;
 public class logintest extends BaseClass {
 	loginPage LoginPage;
 	inventoryPage inventorypage;
-	
 	@Parameters("browser")
 	@BeforeMethod(groups ={"Smoke","Sanity","Regression"})
 	public void setup(String browser) throws InterruptedException{
 		launchApp(browser);
 	}
-	
 	
 	@AfterMethod(groups ={"Smoke","Sanity","Regression"})
 	public void tearDown() {
@@ -41,15 +39,11 @@ public class logintest extends BaseClass {
 //		boolean result=LoginPage.validateLogo();
 //		Assert.assertTrue(result);
 //	}
-	
-	
 	@Test(groups = "Smoke")
 	public void verifyTitle() {
 		String actTitle=LoginPage.getSauslabTitle();
 		Assert.assertEquals(actTitle, "Swag Labs");
 	}
-	
-	
 	
 	@Test(dataProvider  = "credentials", dataProviderClass = DataProviders.class, groups = {"Smoke","Regression"})
 	public void loginTest(String username , String password) throws InterruptedException {

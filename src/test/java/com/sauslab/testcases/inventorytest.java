@@ -29,12 +29,10 @@ public class inventorytest extends BaseClass {
 		launchApp(browser);
 	}
 	
-	
 	@AfterMethod(groups ={"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		getDriver().quit();
 	}
-	
 	@Test(groups="Sanity")
 	public void addtocart() throws InterruptedException {
 		LoginPage = new loginPage();

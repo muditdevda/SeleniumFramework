@@ -36,13 +36,10 @@ public class checkoutsecondtest extends BaseClass {
 		launchApp(browser);
 	}
 	
-	
-	
 	@AfterMethod(groups ={"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		getDriver().quit();
 	}
-	
 	
 	@Test(dataProvider  = "email", dataProviderClass = DataProviders.class,groups = {"Smoke","Regression"})
 	public void CH_1(String username , String password,String FirstName,String LastName,String PostalCode) throws InterruptedException {
@@ -60,7 +57,6 @@ public class checkoutsecondtest extends BaseClass {
 		
 	}
 	
-	
 	@Test(dataProvider  = "email", dataProviderClass = DataProviders.class, groups = {"Smoke","Regression"})
 	public void CH_2(String username , String password,String FirstName,String LastName,String PostalCode) throws InterruptedException {
 		LoginPage = new loginPage();
@@ -74,7 +70,6 @@ public class checkoutsecondtest extends BaseClass {
 		C2=CHECK.checkoutStep(FirstName, LastName, PostalCode);
 		inventorypage=C2.cancel();
 	}
-	
 	
 	@Test(dataProvider  = "email", dataProviderClass = DataProviders.class, groups = {"Smoke","Regression"})
 	public void CH_3(String username , String password,String FirstName,String LastName,String PostalCode) throws InterruptedException {

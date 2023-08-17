@@ -24,12 +24,10 @@ public class cartTest extends BaseClass {
 		launchApp(browser);
 	}
 	
-	
 	@AfterMethod(groups ={"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		getDriver().quit();
 	}
-	
 	
 	@Test(groups = "Sanity")
 	public void carttest() throws InterruptedException {
@@ -45,7 +43,6 @@ public class cartTest extends BaseClass {
 		
 	}
 	
-	
 	@Test(groups = "Sanity")
 	public void carttest1() throws InterruptedException {
 		LoginPage = new loginPage();
@@ -57,7 +54,6 @@ public class cartTest extends BaseClass {
 		
 	}
 	
-	
 	@Test(groups = "Sanity")
 	public void carttest2() throws InterruptedException {
 		LoginPage = new loginPage();
@@ -67,7 +63,6 @@ public class cartTest extends BaseClass {
 		cartPage=inventorypage.ShippingBtn();
 		inventorypage=cartPage.ContinueShipping();
 	}
-	
 	
 	@Test(groups = "Smoke")
 	public void carttest3() throws InterruptedException {

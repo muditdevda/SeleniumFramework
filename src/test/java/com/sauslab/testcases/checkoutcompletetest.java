@@ -37,13 +37,11 @@ public class checkoutcompletetest extends BaseClass {
 		launchApp(browser);
 	}
 	
-	
 	@AfterMethod(groups ={"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		getDriver().quit();
 	}
 	
-
 	@Test(dataProvider  = "email", dataProviderClass = DataProviders.class, groups = "Sanity")
 	public void CH_1(String username , String password,String FirstName,String LastName,String PostalCode) throws InterruptedException {
 		Log.startTestCase("loginTest");

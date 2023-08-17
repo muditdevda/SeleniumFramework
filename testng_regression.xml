@@ -2,19 +2,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Regression">
-   <parameter name="browser" value="Chrome"/>
-   <groups>
-	   <run>
-		   <include name="Regression"></include>
-	   </run>
-   </groups>
-   <classes>
-      <class name="com.sauslab.testcases.checkoutcompletetest"/>
-      <class name="com.sauslab.testcases.checkoutonetest"/>
-      <class name="com.sauslab.testcases.cartTest"/>
+  <parameter name="browser" value="Chrome"/>
+  <groups>
+	  <run>
+		  <include name="Regression"></include>
+	  </run>
+  </groups>
+  <classes>
+	  <class name="com.sauslab.testcases.checkoutcompletetest"/>
+	  <class name="com.sauslab.testcases.checkoutonetest"/>
+	  <class name="com.sauslab.testcases.cartTest"/>
       <class name="com.sauslab.testcases.inventorytest"/>
       <class name="com.sauslab.testcases.checkoutsecondtest"/>
       <class name="com.sauslab.testcases.logintest"/>
-   </classes>
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

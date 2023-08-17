@@ -33,12 +33,10 @@ public class checkoutonetest extends BaseClass{
 		launchApp(browser);
 	}
 	
-	
 	@AfterMethod(groups ={"Smoke","Sanity","Regression"})
 	public void tearDown() {
 		getDriver().quit();
 	}
-	
 	
 	@Test(dataProvider  = "credentials", dataProviderClass = DataProviders.class, groups = "Regression")
 	public void CO1(String username , String password) throws InterruptedException {
@@ -50,7 +48,6 @@ public class checkoutonetest extends BaseClass{
 		cartPage=inventorypage.ShippingBtn();
 		CHECK=cartPage.clickOnCheckOut();
 	}
-	
 	
 	@Test(dataProvider  = "email", dataProviderClass = DataProviders.class, groups = {"Smoke","Regression"})
 	public void CO2(String username , String password,String FirstName,String LastName,String PostalCode) throws InterruptedException {
