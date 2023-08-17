@@ -1,0 +1,1 @@
+start testng.xml
