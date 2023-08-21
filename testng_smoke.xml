@@ -9,12 +9,12 @@
 	  </run>
   </groups>
   <classes>
-      <class name="com.sauslab.testcases.checkoutcompletetest"/>
-      <class name="com.sauslab.testcases.checkoutonetest"/>
-      <class name="com.sauslab.testcases.cartTest"/>
-      <class name="com.sauslab.testcases.inventorytest"/>
-      <class name="com.sauslab.testcases.checkoutsecondtest"/>
-      <class name="com.sauslab.testcases.logintest"/>
+	  <class name="com.testcases.checkoutcompletetest"/>
+	  <class name="com.testcases.checkoutonetest"/>
+	  <class name="com.testcases.cartTest"/>
+      <class name="com.testcases.inventorytest"/>
+      <class name="com.testcases.checkoutsecondtest"/>
+      <class name="com.testcases.logintest"/>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

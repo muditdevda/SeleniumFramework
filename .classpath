@@ -86,5 +86,9 @@
 	<classpathentry kind="lib" path="C:/apache-maven-3.9.4-bin/apache-maven-3.9.4/lib/wagon-http-shared-3.5.3.jar"/>
 	<classpathentry kind="lib" path="C:/apache-maven-3.9.4-bin/apache-maven-3.9.4/lib/wagon-provider-api-3.5.3.jar"/>
 	<classpathentry kind="lib" path="C:/apache-maven-3.9.4-bin/apache-maven-3.9.4/boot/plexus-classworlds-2.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Downloads/jar_files/jcommander-1.82.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Downloads/jar_files/jquery-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Downloads/jar_files/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Downloads/jar_files/testng-7.8.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

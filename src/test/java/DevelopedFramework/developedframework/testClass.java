@@ -28,7 +28,7 @@ public class testClass {
 	@Description("Test Case Description : verfiy Screenshot test")
 	@Story("Story Name: check screenshot")
 	public void firstTest() throws IOException {
-		DriverManager.Url();
+		DriverManager.Url("https://amazon.in");
 		log.info("Browser Start Successfully");
 		log.debug("for debug");
 		log.error("error message");

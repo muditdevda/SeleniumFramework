@@ -1,1 +1,1 @@
-start testng.xml
+start java -cp D:\NIkhlesh_Ruby\SeleniumFramework\lib\*;D:\NIkhlesh_Ruby\SeleniumFramework org.testng.TestNG src/testng.xml

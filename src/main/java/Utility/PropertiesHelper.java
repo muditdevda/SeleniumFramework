@@ -5,7 +5,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+
 public class PropertiesHelper {
+	private static final Logger LOGGER = LoggerFactory.getLogger(PropertiesHelper.class);
+	private Properties propertiesFile;
 	Properties pobj = new Properties();
 	public PropertiesHelper() {
 		FileInputStream reader = null;
@@ -24,7 +31,30 @@ public class PropertiesHelper {
 		}
 	}
 	
+	
 	public String getBrowserName() {
 		return pobj.getProperty("browser");
+	}
+	
+	public String getWebDriver() {
+		return pobj.getProperty("browser");
+	}
+	
+	public String getURL() {
+		String url = System.getProperty("url") != null ? System.getProperty("url") : propertiesFile.getProperty("url");
+		LOGGER.debug("Using url {}", url);
+		return url;
+	}
+	
+	public String getAdminUser() {
+		return propertiesFile.getProperty("adminUser");
+	}
+
+	public String getAdminPwd() {
+		return propertiesFile.getProperty("adminPwd");
+	}
+	
+	public Integer getWaitTimeout() {
+		return Integer.parseInt(propertiesFile.getProperty("waitTimeout"));
 	}
 }

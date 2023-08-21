@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DevelopedFramework.developedframework.testClass">
+      <class name="com.testcases.hrm_login_test">
         <methods>
-          <include name="firstTest"/>
+          <include name="tearDown"/>
+          <include name="signup"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- DevelopedFramework.developedframework.testClass -->
+      </class> <!-- com.testcases.hrm_login_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

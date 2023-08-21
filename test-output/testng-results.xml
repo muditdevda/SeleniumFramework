@@ -1,471 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-16T22:08:44 IST" name="Suite" finished-at="2023-08-16T22:11:09 IST" duration-ms="144159">
+  <suite started-at="2023-08-17T16:15:26 IST" name="Default suite" finished-at="2023-08-17T16:16:57 IST" duration-ms="91209">
     <groups>
-      <group name="Sanity">
-        <method signature="cartTest.carttest()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" name="carttest" class="com.sauslab.testcases.cartTest"/>
-        <method signature="cartTest.carttest1()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" name="carttest1" class="com.sauslab.testcases.cartTest"/>
-        <method signature="cartTest.carttest2()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" name="carttest2" class="com.sauslab.testcases.cartTest"/>
-        <method signature="checkoutcompletetest.CH_1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutcompletetest@356341c9]" name="CH_1" class="com.sauslab.testcases.checkoutcompletetest"/>
-        <method signature="inventorytest.addtocart()[pri:0, instance:com.sauslab.testcases.inventorytest@7283877]" name="addtocart" class="com.sauslab.testcases.inventorytest"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="checkoutonetest.CO1(java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" name="CO1" class="com.sauslab.testcases.checkoutonetest"/>
-        <method signature="checkoutonetest.CO2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" name="CO2" class="com.sauslab.testcases.checkoutonetest"/>
-        <method signature="checkoutsecondtest.CH_1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" name="CH_1" class="com.sauslab.testcases.checkoutsecondtest"/>
-        <method signature="checkoutsecondtest.CH_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" name="CH_2" class="com.sauslab.testcases.checkoutsecondtest"/>
-        <method signature="checkoutsecondtest.CH_3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" name="CH_3" class="com.sauslab.testcases.checkoutsecondtest"/>
-        <method signature="logintest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" name="loginTest" class="com.sauslab.testcases.logintest"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="cartTest.carttest3()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" name="carttest3" class="com.sauslab.testcases.cartTest"/>
-        <method signature="checkoutonetest.CO2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" name="CO2" class="com.sauslab.testcases.checkoutonetest"/>
-        <method signature="checkoutsecondtest.CH_1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" name="CH_1" class="com.sauslab.testcases.checkoutsecondtest"/>
-        <method signature="checkoutsecondtest.CH_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" name="CH_2" class="com.sauslab.testcases.checkoutsecondtest"/>
-        <method signature="checkoutsecondtest.CH_3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" name="CH_3" class="com.sauslab.testcases.checkoutsecondtest"/>
-        <method signature="logintest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" name="loginTest" class="com.sauslab.testcases.logintest"/>
-        <method signature="logintest.verifyTitle()[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" name="verifyTitle" class="com.sauslab.testcases.logintest"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-08-16T22:08:44 IST" name="Test_All" finished-at="2023-08-16T22:11:09 IST" duration-ms="144159">
-      <class name="com.sauslab.testcases.cartTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:29 IST" name="setup" finished-at="2023-08-16T22:09:37 IST" duration-ms="8160" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-08-17T16:15:26 IST" name="Default test" finished-at="2023-08-17T16:16:57 IST" duration-ms="91209">
+      <class name="com.testcases.hrm_login_test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.hrm_login_test@4565a70a]" started-at="2023-08-17T16:15:26 IST" name="setup" finished-at="2023-08-17T16:15:26 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="carttest()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:37 IST" name="carttest" finished-at="2023-08-16T22:09:39 IST" duration-ms="2309" status="PASS">
+        <test-method signature="signup()[pri:0, instance:com.testcases.hrm_login_test@4565a70a]" started-at="2023-08-17T16:15:26 IST" name="signup" finished-at="2023-08-17T16:16:47 IST" duration-ms="80869" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:209)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:65)
+at com.actiondriver.Action.click(Action.java:47)
+at com.orange.login_page.login(login_page.java:43)
+at com.testcases.hrm_login_test.signup(hrm_login_test.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carttest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:39 IST" name="tearDown" finished-at="2023-08-16T22:09:40 IST" duration-ms="502" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:40 IST" name="setup" finished-at="2023-08-16T22:09:47 IST" duration-ms="7463" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="carttest1()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:47 IST" name="carttest1" finished-at="2023-08-16T22:09:50 IST" duration-ms="2527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carttest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:50 IST" name="tearDown" finished-at="2023-08-16T22:09:50 IST" duration-ms="581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:50 IST" name="setup" finished-at="2023-08-16T22:09:56 IST" duration-ms="6226" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="carttest2()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:56 IST" name="carttest2" finished-at="2023-08-16T22:09:58 IST" duration-ms="1998" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carttest2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:58 IST" name="tearDown" finished-at="2023-08-16T22:09:59 IST" duration-ms="504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:09:59 IST" name="setup" finished-at="2023-08-16T22:10:07 IST" duration-ms="8195" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="carttest3()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:10:07 IST" name="carttest3" finished-at="2023-08-16T22:10:09 IST" duration-ms="2271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carttest3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.cartTest@5d96d434]" started-at="2023-08-16T22:10:09 IST" name="tearDown" finished-at="2023-08-16T22:10:10 IST" duration-ms="771" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sauslab.testcases.cartTest -->
-      <class name="com.sauslab.testcases.checkoutcompletetest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.sauslab.testcases.checkoutcompletetest@356341c9]" started-at="2023-08-16T22:08:44 IST" name="beforeSuite" finished-at="2023-08-16T22:08:44 IST" duration-ms="384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.sauslab.testcases.checkoutcompletetest@356341c9]" started-at="2023-08-16T22:08:45 IST" name="loadConfig" finished-at="2023-08-16T22:08:45 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutcompletetest@356341c9]" started-at="2023-08-16T22:08:51 IST" name="setup" finished-at="2023-08-16T22:08:59 IST" duration-ms="8542" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="CH_1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutcompletetest@356341c9]" started-at="2023-08-16T22:09:00 IST" name="CH_1" data-provider="email" finished-at="2023-08-16T22:09:04 IST" duration-ms="4641" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Nikhlesh]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Gujrati]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[457001.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CH_1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.checkoutcompletetest@356341c9]" started-at="2023-08-16T22:09:04 IST" name="tearDown" finished-at="2023-08-16T22:09:05 IST" duration-ms="905" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sauslab.testcases.checkoutcompletetest -->
-      <class name="com.sauslab.testcases.inventorytest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.inventorytest@7283877]" started-at="2023-08-16T22:10:10 IST" name="setup" finished-at="2023-08-16T22:10:18 IST" duration-ms="7497" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="addtocart()[pri:0, instance:com.sauslab.testcases.inventorytest@7283877]" started-at="2023-08-16T22:10:18 IST" name="addtocart" finished-at="2023-08-16T22:10:20 IST" duration-ms="2446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtocart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.inventorytest@7283877]" started-at="2023-08-16T22:10:20 IST" name="tearDown" finished-at="2023-08-16T22:10:21 IST" duration-ms="623" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sauslab.testcases.inventorytest -->
-      <class name="com.sauslab.testcases.checkoutonetest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" started-at="2023-08-16T22:09:05 IST" name="setup" finished-at="2023-08-16T22:09:12 IST" duration-ms="6257" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="CO1(java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" started-at="2023-08-16T22:09:12 IST" name="CO1" data-provider="credentials" finished-at="2023-08-16T22:09:14 IST" duration-ms="2385" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CO1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" started-at="2023-08-16T22:09:14 IST" name="tearDown" finished-at="2023-08-16T22:09:14 IST" duration-ms="482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" started-at="2023-08-16T22:09:15 IST" name="setup" finished-at="2023-08-16T22:09:24 IST" duration-ms="9048" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="CO2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" started-at="2023-08-16T22:09:24 IST" name="CO2" data-provider="email" finished-at="2023-08-16T22:09:28 IST" duration-ms="4280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Nikhlesh]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Gujrati]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[457001.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CO2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.checkoutonetest@3a70575]" started-at="2023-08-16T22:09:28 IST" name="tearDown" finished-at="2023-08-16T22:09:29 IST" duration-ms="374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sauslab.testcases.checkoutonetest -->
-      <class name="com.sauslab.testcases.logintest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" started-at="2023-08-16T22:10:57 IST" name="setup" finished-at="2023-08-16T22:11:02 IST" duration-ms="5459" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" started-at="2023-08-16T22:11:02 IST" name="loginTest" data-provider="credentials" finished-at="2023-08-16T22:11:03 IST" duration-ms="879" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" started-at="2023-08-16T22:11:03 IST" name="tearDown" finished-at="2023-08-16T22:11:04 IST" duration-ms="577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" started-at="2023-08-16T22:11:04 IST" name="setup" finished-at="2023-08-16T22:11:08 IST" duration-ms="4649" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" started-at="2023-08-16T22:11:08 IST" name="verifyTitle" finished-at="2023-08-16T22:11:08 IST" duration-ms="18" status="PASS">
+        </test-method> <!-- signup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.testcases.hrm_login_test@4565a70a]" started-at="2023-08-17T16:16:52 IST" name="verifyTitle" finished-at="2023-08-17T16:16:57 IST" duration-ms="4910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.logintest@13dd7887]" started-at="2023-08-16T22:11:08 IST" name="tearDown" finished-at="2023-08-16T22:11:09 IST" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.hrm_login_test@4565a70a]" started-at="2023-08-17T16:16:57 IST" name="tearDown" finished-at="2023-08-17T16:16:57 IST" duration-ms="499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.sauslab.testcases.logintest -->
-      <class name="DevelopedFramework.developedframework.testClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DevelopedFramework.developedframework.testClass@37986daf]" started-at="2023-08-16T22:08:44 IST" name="setup" finished-at="2023-08-16T22:08:45 IST" duration-ms="32" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="firstTest()[pri:0, instance:DevelopedFramework.developedframework.testClass@37986daf]" started-at="2023-08-16T22:08:45 IST" name="firstTest" description="verify screenshot test" finished-at="2023-08-16T22:08:45 IST" duration-ms="690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstTest -->
-      </class> <!-- DevelopedFramework.developedframework.testClass -->
-      <class name="com.sauslab.testcases.checkoutsecondtest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:21 IST" name="setup" finished-at="2023-08-16T22:10:29 IST" duration-ms="8369" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="CH_1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:29 IST" name="CH_1" data-provider="email" finished-at="2023-08-16T22:10:34 IST" duration-ms="4724" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Nikhlesh]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Gujrati]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[457001.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CH_1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:34 IST" name="tearDown" finished-at="2023-08-16T22:10:35 IST" duration-ms="462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:35 IST" name="setup" finished-at="2023-08-16T22:10:43 IST" duration-ms="8068" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="CH_2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:43 IST" name="CH_2" data-provider="email" finished-at="2023-08-16T22:10:46 IST" duration-ms="3308" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Nikhlesh]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Gujrati]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[457001.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CH_2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:46 IST" name="tearDown" finished-at="2023-08-16T22:10:47 IST" duration-ms="512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:47 IST" name="setup" finished-at="2023-08-16T22:10:52 IST" duration-ms="5285" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="CH_3(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:52 IST" name="CH_3" data-provider="email" finished-at="2023-08-16T22:10:56 IST" duration-ms="3470" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Nikhlesh]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Gujrati]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[457001.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CH_3 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauslab.testcases.checkoutsecondtest@286a4c52]" started-at="2023-08-16T22:10:56 IST" name="tearDown" finished-at="2023-08-16T22:10:56 IST" duration-ms="383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sauslab.testcases.checkoutsecondtest -->
-    </test> <!-- Test_All -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.testcases.hrm_login_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

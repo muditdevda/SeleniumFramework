@@ -436,3 +436,60 @@
 2023-08-17 09:18:46 INFO  Log:22 - Verifying if user is able to login
 2023-08-17 09:18:46 INFO  Log:22 - Login is Success
 2023-08-17 09:18:46 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2023-08-17 13:01:13 INFO  testClass:32 - Browser Start Successfully
+2023-08-17 13:01:13 DEBUG testClass:33 - for debug
+2023-08-17 13:01:13 ERROR testClass:34 - error message
+2023-08-17 13:01:13 WARN  testClass:35 - warning message
+2023-08-17 13:01:13 INFO  screenshot:23 - Take Screenshot Successfully
+2023-08-17 13:01:13 INFO  testClass:37 - Browser Stop Successfully
+2023-08-17 13:02:09 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2023-08-17 13:02:09 INFO  Log:22 - Enter UserName and Password
+2023-08-17 13:02:09 INFO  Log:22 - user is going to click on Login
+2023-08-17 13:02:10 INFO  Log:22 - Login is Success
+2023-08-17 13:02:10 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2023-08-17 13:02:10 INFO  Log:11 - =====================================addtocart TEST START=========================================
+2023-08-17 13:02:11 INFO  Log:22 - addtocart is Success
+2023-08-17 13:02:11 INFO  Log:15 - =====================================addtocart TEST END=========================================
+2023-08-17 13:02:11 INFO  Log:11 - =====================================CH_1 TEST START=========================================
+2023-08-17 13:02:13 INFO  Log:22 - CH_1 is Success
+2023-08-17 13:02:13 INFO  Log:15 - =====================================CH_1 TEST END=========================================
+2023-08-17 13:10:18 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2023-08-17 13:10:18 INFO  Log:22 - Enter UserName and Password
+2023-08-17 13:10:18 INFO  Log:22 - user is going to click on Login
+2023-08-17 13:10:19 INFO  Log:22 - Verifying if user is able to login
+2023-08-17 13:10:19 INFO  Log:22 - Login is Success
+2023-08-17 13:10:19 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2023-08-17 14:44:35 INFO  testClass:32 - Browser Start Successfully
+2023-08-17 14:44:35 DEBUG testClass:33 - for debug
+2023-08-17 14:44:35 ERROR testClass:34 - error message
+2023-08-17 14:44:35 WARN  testClass:35 - warning message
+2023-08-17 14:44:46 INFO  screenshot:23 - Take Screenshot Successfully
+2023-08-17 14:44:46 INFO  testClass:37 - Browser Stop Successfully
+2023-08-17 14:45:01 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2023-08-17 14:45:01 INFO  Log:22 - Enter UserName and Password
+2023-08-17 14:45:01 INFO  Log:22 - user is going to click on Login
+2023-08-17 14:45:03 INFO  Log:22 - Login is Success
+2023-08-17 14:45:03 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2023-08-17 14:45:03 INFO  Log:11 - =====================================addtocart TEST START=========================================
+2023-08-17 14:45:03 INFO  Log:22 - addtocart is Success
+2023-08-17 14:45:03 INFO  Log:15 - =====================================addtocart TEST END=========================================
+2023-08-17 14:45:03 INFO  Log:11 - =====================================CH_1 TEST START=========================================
+2023-08-17 14:45:05 INFO  Log:22 - CH_1 is Success
+2023-08-17 14:45:05 INFO  Log:15 - =====================================CH_1 TEST END=========================================
+2023-08-17 14:46:10 INFO  testClass:32 - Browser Start Successfully
+2023-08-17 14:46:10 DEBUG testClass:33 - for debug
+2023-08-17 14:46:10 ERROR testClass:34 - error message
+2023-08-17 14:46:10 WARN  testClass:35 - warning message
+2023-08-17 14:46:10 INFO  screenshot:23 - Take Screenshot Successfully
+2023-08-17 14:46:10 INFO  testClass:37 - Browser Stop Successfully
+2023-08-17 14:46:21 INFO  Log:11 - =====================================loginTest TEST START=========================================
+2023-08-17 14:46:21 INFO  Log:22 - Enter UserName and Password
+2023-08-17 14:46:21 INFO  Log:22 - user is going to click on Login
+2023-08-17 14:46:22 INFO  Log:22 - Login is Success
+2023-08-17 14:46:22 INFO  Log:15 - =====================================loginTest TEST END=========================================
+2023-08-17 14:46:22 INFO  Log:11 - =====================================addtocart TEST START=========================================
+2023-08-17 14:46:22 INFO  Log:22 - addtocart is Success
+2023-08-17 14:46:22 INFO  Log:15 - =====================================addtocart TEST END=========================================
+2023-08-17 14:46:22 INFO  Log:11 - =====================================CH_1 TEST START=========================================
+2023-08-17 14:46:24 INFO  Log:22 - CH_1 is Success
+2023-08-17 14:46:24 INFO  Log:15 - =====================================CH_1 TEST END=========================================
