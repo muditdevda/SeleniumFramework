@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import Utility.DriverManager;
-
 public class JSExecutor {
 	
 	private static Logger logger = LoggerFactory.getLogger(JSExecutor.class);
