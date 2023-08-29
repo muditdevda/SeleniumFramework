@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-23T14:18:26 IST" name="Default suite" finished-at="2023-08-23T14:18:53 IST" duration-ms="27120">
+  <suite started-at="2023-08-29T10:19:08 IST" name="Default suite" finished-at="2023-08-29T10:19:54 IST" duration-ms="45364">
     <groups>
     </groups>
-    <test started-at="2023-08-23T14:18:26 IST" name="Default test" finished-at="2023-08-23T14:18:53 IST" duration-ms="27120">
-      <class name="com.orange.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.LoginTest@70f59913]" started-at="2023-08-23T14:18:26 IST" name="setup" finished-at="2023-08-23T14:18:29 IST" duration-ms="2485" status="PASS">
+    <test started-at="2023-08-29T10:19:08 IST" name="Default test" finished-at="2023-08-29T10:19:54 IST" duration-ms="45364">
+      <class name="com.orange.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.orange.HomePageTest@72805168]" started-at="2023-08-29T10:19:08 IST" name="setup" finished-at="2023-08-29T10:19:21 IST" duration-ms="12529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="firstTest()[pri:0, instance:com.orange.LoginTest@70f59913]" started-at="2023-08-23T14:18:29 IST" name="firstTest" finished-at="2023-08-23T14:18:46 IST" duration-ms="17350" status="PASS">
+        <test-method signature="clickLogoutbtn()[pri:0, instance:com.orange.HomePageTest@72805168]" started-at="2023-08-29T10:19:21 IST" name="clickLogoutbtn" finished-at="2023-08-29T10:19:53 IST" duration-ms="32116" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange.LoginTest@70f59913]" started-at="2023-08-23T14:18:47 IST" name="teardown" finished-at="2023-08-23T14:18:53 IST" duration-ms="6927" status="PASS">
+        </test-method> <!-- clickLogoutbtn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.orange.HomePageTest@72805168]" started-at="2023-08-29T10:19:53 IST" name="teardown" finished-at="2023-08-29T10:19:54 IST" duration-ms="456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.orange.LoginTest -->
+      </class> <!-- com.orange.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

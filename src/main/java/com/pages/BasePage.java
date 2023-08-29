@@ -1,11 +1,14 @@
 package com.pages;
 import static com.selenium.FlowNavigateToHelper.navigateTo;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.pages.LoginPage;
@@ -38,6 +41,26 @@ public class BasePage extends DriverManager {
 	@Step("Wait until Clickable")
 	public WebElement waitUntilClickable(WebElement ele) {
 		return getDriverWait().waitUntilClickable(ele);
+	}
+	
+	@Step("Wait until Clickable")
+	protected WebElement waitUntilClickable(By by) {
+		LOGGER.info("***** waitUntilClickable *****");
+		LOGGER.info(by.toString());
+		return getDriverWait().waitUntilClickable(by);
+	}
+	
+	@Step("Wait until presence")
+	protected WebElement waitUntilPresence(By by) {
+		return getDriverWait().until(ExpectedConditions.presenceOfElementLocated(by));
+	}
+	
+	public List<WebElement> findElements(By by) {
+		try {
+			return getDriver().findElements(by);
+		} catch (TimeoutException e) {
+			return getDriver().findElements(by);
+		}
 	}
 
 	
